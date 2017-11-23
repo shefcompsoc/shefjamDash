@@ -1,6 +1,8 @@
 The ShefJam Dashboard
 =====================
 
+This is a collection of scripts to form a dashboard for game jams when used with tmux or screen.
+
 All scripts and fonts etc should be in `assets/`. Things in the root should be shell scripts in the form `display*.sh` that run different
 parts of the display, configured for a specific game jam.
 
@@ -16,7 +18,7 @@ Individula .sh files can be altered to provide different things. Each .py file s
 `exampleConfigs` shows some example config files.
 
 
-###TODO:
+### TODO:
 - Make the event list order-agnostic so the events can be added to the file in any order
 - Make the leader board look better
 - Make the event list display with the dashed lines spreading the full width

@@ -24,3 +24,14 @@ Individula .sh files can be altered to provide different things. Each .py file s
 - Make the event list display with the dashed lines spreading the full width
 - Maybe move all config files to their own folder
 - Add a clock?
+
+
+### Caveat
+
+`pyfiglet` seems to need this added to it on line 105 of `__init__.py`:
+
+```python
+elif os.path.isfile(font):
+    with open(font, 'rb') as f:
+        return f.read().decode('UTF-8', 'replace')
+```

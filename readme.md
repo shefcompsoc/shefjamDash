@@ -6,10 +6,9 @@ This is a collection of scripts to form a dashboard for game jams when used with
 All scripts and fonts etc should be in `assets/`. Things in the root should be shell scripts in the form `display*.sh` that run different
 parts of the display, configured for a specific game jam.
 
-`install.sh` installs all required components.
+`pip install -r requirements.txt` installs all required components.
 
 Configuration notes:
-- `end_date.data` should contain the date and time of the end of the jam period
 - `events.txt` should contain a time-ordered list of events that will be occuring, in the format `dd/mm/yy HH:MM - [Short event description]`
 - `scores.txt` should contain a list of scores and names in the format `score - name`, where score can either be a time in the format `MM:SS.SS` or a number. These can be in any order.
 

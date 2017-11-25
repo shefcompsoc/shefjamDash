@@ -1,6 +1,8 @@
-#! /bin/bash
-printf "\n \n \n"; figlet -w 150 " ShefJam V:  Powerless"
-printf "Tweet us with #shefjamV!"
+#!/bin/bash
+python -c "from pyfiglet import Figlet; print(Figlet(font=\"assets/shefjam.flf\", width=150).renderText(\"ShefJam V:  Powerless\"))"
+echo "Tweet us with #shefjamV!"
 
-#Just stop the prompt from coming back up...
-read -p "" q # Could use sleep, but this keeps it open indefinitely, even if there is that annoying little input box.
+# Just stop the prompt from coming back up...
+# Could use sleep, but this keeps it open indefinitely
+# Even if there is that annoying little input box.
+read -p "" q

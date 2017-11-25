@@ -12,7 +12,7 @@ if len(sys.argv) < 3 or sys.argv[1] == "-h" or sys.argv[1] == "--help":
 while True:
   output = ""
   now = datetime.now()
-  f = Figlet()
+  f = Figlet(font="assets/shefjam.flf", width=100)
   output += f.renderText("Upcoming Events")
   #print("\nUpcoming Events:\n")
 

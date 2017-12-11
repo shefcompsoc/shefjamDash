@@ -89,3 +89,9 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# History list from the twitter thing
+completer.hist
+
+# Vim backups
+**/*.swp

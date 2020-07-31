@@ -1,6 +1,8 @@
 The ShefJam Dashboard
 =====================
 
+**WARNING: This project is unsupported and currently uses a version of Pillow with a number of security vulnerabilities.**
+
 This is a collection of scripts to form a dashboard for game jams when used with tmux or screen.
 
 All scripts and fonts etc should be in `assets/`. Things in the root should be shell scripts in the form `display*.sh` that run different
